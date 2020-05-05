@@ -3,6 +3,7 @@ const chalk =require('chalk')
 const yargs = require('yargs')
 const notes=require('./notes.js')
 //Create add command
+console.log("fgfgfg")
 yargs.command({
     command:'add' ,
     description :'Add a new note' ,
