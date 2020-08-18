@@ -3,14 +3,14 @@ const chalk =require('chalk')
 const yargs = require('yargs')
 const notes=require('./notes.js')
 //Create add command
-console.log("fgfgfg")
+
 yargs.command({
     command:'add' ,
     description :'Add a new note' ,
     builder:{
       title:{
           description:'Note title ' ,
-          demandOption:true,
+          demandOption:true,     // that used to required
           type:'string'
       } ,
       body:{

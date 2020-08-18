@@ -46,7 +46,7 @@ console.log(chalk.bgGreen('Note removed!'))
 }
 }
 const listNotes=()=>{
-  console.log(chalk.inverse('Your note : '))
+  console.log(chalk.inverse('Your notess : '))
   const notes =loadNote()
   notes.forEach((note) => {
     console.log('Title : '+note.title)
